@@ -9,6 +9,7 @@ Lpc21isp is a “command line program” that lets you program the microcontroll
 
 Version 1.97 doesn’t support it so we need to change the “lpcprog.c” file to use it. You can use “Nano” or “Vim” editor to change the file inside the terminal easily 
 Don’t use homebrew to download the lpc21isp this makes it harder to change the files from the bin folder.
+```
 
 static LPC_DEVICE_TYPE LPCtypes[] =
 {
@@ -21,7 +22,7 @@ static LPC_DEVICE_TYPE LPCtypes[] =
 { 0x00008122, 0x00000000, 0, "812M101FDH20", 16, 4, 16, 1024, SectorTable_8xx, CHIP_VARIANT_LPC8XX },
 { 0x00008242, 0x00000000, 0, "824M201JDH20", 32, 8, 32, 1024, SectorTable_8xx, CHIP_VARIANT_LPC8XX },
 
-
+```
 
 Save, make and run.
 
