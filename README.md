@@ -3,7 +3,9 @@ lpc21isp patched lpcprog.c file for lpc8xx version of the microcontrollers.
 
 Mac flashmagic alternative download
 
+1) You can just download the repository files
 
+2) Or follow trough the steps down below
 Lpc21isp is a “command line program” that lets you program the microcontroller using the terminal of mac and linux, Use the sourceforge link to download it https://sourceforge.net/projects/lpc21isp/
 
 
